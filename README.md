@@ -1,2 +1,1 @@
-# whith_senior
-구글에 검색한 것들
+# search in google
