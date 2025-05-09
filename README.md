@@ -1,1 +1,1 @@
-# search in google
+# 검색한 구글 검색어
