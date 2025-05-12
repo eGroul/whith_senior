@@ -12,3 +12,4 @@
 
 [ 파싱 ]
 1. 유니티 엑셀 읽기
+2. 고박사 유튜브: https://www.youtube.com/watch?v=2oip0H7VgPM
