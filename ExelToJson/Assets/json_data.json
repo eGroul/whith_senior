@@ -1,0 +1,37 @@
+[
+  {
+    "ID": 1,
+    "NameString": "슬라임",
+    "ATK": 5.5,
+    "DEF": 3.5,
+    "MaxHP": 500
+  },
+  {
+    "ID": 2,
+    "NameString": "고블린",
+    "ATK": 7.5,
+    "DEF": 4.1,
+    "MaxHP": 800
+  },
+  {
+    "ID": 3,
+    "NameString": "늑대",
+    "ATK": 3.5,
+    "DEF": 5.3,
+    "MaxHP": 300
+  },
+  {
+    "ID": 4,
+    "NameString": "여우",
+    "ATK": 1.5,
+    "DEF": 6.7,
+    "MaxHP": 150
+  },
+  {
+    "ID": 5,
+    "NameString": "드래곤",
+    "ATK": 200.5,
+    "DEF": 7.2,
+    "MaxHP": 5000
+  }
+]
