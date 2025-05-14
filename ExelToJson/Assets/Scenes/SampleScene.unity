@@ -178,7 +178,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -189,15 +189,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "[\r\n  {\r\n    \"ID\": 1,\r\n    \"NameString\": \"\uC2AC\uB77C\uC784\",\r\n   
-    \"ATK\": 5.5,\r\n    \"DEF\": 3.5,\r\n    \"MaxHP\": 500\r\n  },\r\n  {\r\n   
-    \"ID\": 2,\r\n    \"NameString\": \"\uACE0\uBE14\uB9B0\",\r\n    \"ATK\": 7.5,\r\n   
-    \"DEF\": 4.1,\r\n    \"MaxHP\": 800\r\n  },\r\n  {\r\n    \"ID\": 3,\r\n    \"NameString\":
-    \"\uB291\uB300\",\r\n    \"ATK\": 3.5,\r\n    \"DEF\": 5.3,\r\n    \"MaxHP\":
-    300\r\n  },\r\n  {\r\n    \"ID\": 4,\r\n    \"NameString\": \"\uC5EC\uC6B0\",\r\n   
-    \"ATK\": 1.5,\r\n    \"DEF\": 6.7,\r\n    \"MaxHP\": 150\r\n  },\r\n  {\r\n   
-    \"ID\": 5,\r\n    \"NameString\": \"\uB4DC\uB798\uACE4\",\r\n    \"ATK\": 200.5,\r\n   
-    \"DEF\": 7.2,\r\n    \"MaxHP\": 5000\r\n  }\r\n]"
+  m_Text: "[\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"\uC2AC\uB77C\uC784\",\r\n   
+    \"stats\": {\r\n      \"attack\": 5.5,\r\n      \"defense\": 3.5,\r\n      \"maxHP\":
+    500\r\n    }\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"\uACE0\uBE14\uB9B0\",\r\n   
+    \"stats\": {\r\n      \"attack\": 7.5,\r\n      \"defense\": 4.1,\r\n      \"maxHP\":
+    800\r\n    }\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"name\": \"\uB291\uB300\",\r\n   
+    \"stats\": {\r\n      \"attack\": 3.5,\r\n      \"defense\": 5.3,\r\n      \"maxHP\":
+    300\r\n    }\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"name\": \"\uC5EC\uC6B0\",\r\n   
+    \"stats\": {\r\n      \"attack\": 1.5,\r\n      \"defense\": 6.7,\r\n      \"maxHP\":
+    150\r\n    }\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"name\": \"\uB4DC\uB798\uACE4\",\r\n   
+    \"stats\": {\r\n      \"attack\": 200.5,\r\n      \"defense\": 7.2,\r\n     
+    \"maxHP\": 5000\r\n    }\r\n  }\r\n]"
 --- !u!222 &99404918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -556,31 +558,16 @@ MonoBehaviour:
   dataTable: {fileID: 11400000, guid: bbdae5390024cf948be1042e4383609d, type: 2}
   printText: {fileID: 99404917}
   data:
-  - ID: 1
-    NameString: "\uC2AC\uB77C\uC784"
-    ATK: 5.5
-    DEF: 3.5
-    MaxHP: 500
-  - ID: 2
-    NameString: "\uACE0\uBE14\uB9B0"
-    ATK: 7.5
-    DEF: 4.1
-    MaxHP: 800
-  - ID: 3
-    NameString: "\uB291\uB300"
-    ATK: 3.5
-    DEF: 5.3
-    MaxHP: 300
-  - ID: 4
-    NameString: "\uC5EC\uC6B0"
-    ATK: 1.5
-    DEF: 6.7
-    MaxHP: 150
-  - ID: 5
-    NameString: "\uB4DC\uB798\uACE4"
-    ATK: 200.5
-    DEF: 7.2
-    MaxHP: 5000
+  - id: 1
+    name: "\uC2AC\uB77C\uC784"
+  - id: 2
+    name: "\uACE0\uBE14\uB9B0"
+  - id: 3
+    name: "\uB291\uB300"
+  - id: 4
+    name: "\uC5EC\uC6B0"
+  - id: 5
+    name: "\uB4DC\uB798\uACE4"
 --- !u!4 &1953027029
 Transform:
   m_ObjectHideFlags: 0
